@@ -12,7 +12,7 @@ namespace WindsorFactoryTest.Controllers
 
         public ActionResult Index()
         {
-            ViewBag.Message = "Just created 100 builders with Windsor 3.1";
+            ViewBag.Message = "Just created 100 builders with Windsor 2.5.3";
 
             for (int x = 1; x < 100; x++)
             {
